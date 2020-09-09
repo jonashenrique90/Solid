@@ -1,5 +1,5 @@
 import { CreateUserController } from './CreateUserController';
-import { CreateUserService } from './CreateUseService';
+import { CreateUserService } from './CreateUserService';
 import { PostgresUsersRepository } from './../../repositories/implementations/PostgresUsersRepository';
 import { MailTrapMailProvider } from './../../providers/implementations/MailTrapMailProvider';
 const mailTrapMailProvider = new MailTrapMailProvider();

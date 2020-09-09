@@ -1,4 +1,4 @@
-import { IMailProvider } from './../../providers/IMailProvider';
+import { IMailProvider } from '../../providers/IMailProvider';
 import { IUsersRepository } from "../../repositories/IUsersRepository";
 import { ICreateUserRequestDTO } from './CreateUserDTO'
 import { User } from "../../entities/User";
@@ -23,8 +23,8 @@ export class CreateUserService {
                 email: data.email,
             },
             from: {
-                name: "eqipe do meu app",
-                email: "eqipe@meuapp.com",
+                name: "equipe do meu app",
+                email: "equipe@meuapp.com",
             },
             subject: "Seja bem vindo a plataforma",
             body: "<p>Você já pode fazer login em nossa plataforma.</p>"
